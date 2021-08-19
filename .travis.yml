@@ -1,0 +1,12 @@
+language: java     
+jdk:
+    - openjdk10
+    - openjdk11
+jobs:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+    - os: linux
+      sudo: required
+      dist: precise
